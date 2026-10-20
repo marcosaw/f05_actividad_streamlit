@@ -1,0 +1,8 @@
+[theme]
+# Tema claro fijo: el CSS de app.py asume fondo claro, y sin esto Streamlit
+# sigue el modo oscuro del navegador (por ejemplo en Edge) y el texto no se lee.
+base = "light"
+primaryColor = "#155eef"
+backgroundColor = "#f5f7fb"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#14213d"

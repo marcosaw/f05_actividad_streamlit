@@ -1,0 +1,251 @@
+id_alumno,promedio_anterior,porcentaje_asistencia,materias_reprobadas,horas_estudio_semanal,nivel_socioeconomico,modalidad_estudio,pago_al_dia,participacion_actividades,retencion
+ALU-1001,8.35,66.9,1,12,Bajo,Presencial,Sí,Media,1
+ALU-1002,7.65,93.0,0,33,Bajo,Presencial,Sí,Media,1
+ALU-1003,8.51,100.0,0,4,Medio,En línea,Sí,Alta,1
+ALU-1004,9.48,94.4,4,5,Bajo,Presencial,Sí,Media,0
+ALU-1005,7.54,63.8,1,25,Medio,Presencial,Sí,Media,0
+ALU-1006,7.54,76.2,0,25,Bajo,Presencial,Sí,Baja,1
+ALU-1007,9.54,97.2,0,14,Bajo,Presencial,Sí,Media,1
+ALU-1008,8.64,73.5,0,22,Medio,Presencial,Sí,Baja,1
+ALU-1009,7.28,87.3,0,7,Medio,Presencial,Sí,Media,1
+ALU-1010,8.4,91.3,0,7,Bajo,En línea,Sí,Media,1
+ALU-1011,7.29,70.9,0,8,Medio,En línea,Sí,Media,1
+ALU-1012,7.29,81.3,0,34,Alto,Híbrida,No,Baja,0
+ALU-1013,8.07,43.1,0,32,Medio,Presencial,Sí,Baja,1
+ALU-1014,5.7,69.7,2,11,Bajo,Presencial,No,Media,0
+ALU-1015,5.9,79.0,0,4,Bajo,Presencial,Sí,Baja,0
+ALU-1016,7.18,67.0,0,23,Alto,En línea,Sí,Baja,1
+ALU-1017,6.69,100.0,0,14,Bajo,En línea,Sí,Baja,1
+ALU-1018,8.15,64.8,4,5,Alto,Presencial,No,Alta,0
+ALU-1019,6.8,76.7,0,22,Medio,Híbrida,Sí,Media,1
+ALU-1020,6.25,83.6,0,28,Alto,Presencial,No,Media,1
+ALU-1021,9.41,99.3,3,24,Medio,En línea,No,Baja,1
+ALU-1022,7.55,64.8,2,14,Alto,En línea,Sí,Media,0
+ALU-1023,7.87,96.0,1,26,Medio,Híbrida,Sí,Alta,1
+ALU-1024,6.23,82.1,0,19,Medio,En línea,Sí,Media,1
+ALU-1025,7.2,70.2,0,12,Medio,Híbrida,Sí,Baja,1
+ALU-1026,7.92,87.5,1,32,Medio,Presencial,No,Baja,0
+ALU-1027,6.53,84.4,3,26,Medio,Híbrida,No,Baja,0
+ALU-1028,8.21,74.8,0,29,Alto,Presencial,Sí,Media,1
+ALU-1029,7.14,82.8,0,16,Alto,Híbrida,Sí,Alta,1
+ALU-1030,7.48,77.4,0,25,Medio,En línea,Sí,Baja,1
+ALU-1031,7.14,83.4,1,34,Medio,Híbrida,Sí,Baja,1
+ALU-1032,9.84,89.9,0,34,Medio,Presencial,No,Baja,1
+ALU-1033,7.79,100.0,0,19,Medio,En línea,Sí,Alta,1
+ALU-1034,6.64,67.1,0,20,Bajo,En línea,Sí,Baja,0
+ALU-1035,8.7,100.0,0,21,Bajo,En línea,Sí,Alta,1
+ALU-1036,6.46,58.6,0,19,Medio,Presencial,Sí,Media,1
+ALU-1037,8.03,80.2,0,16,Bajo,Presencial,Sí,Media,1
+ALU-1038,5.64,89.1,1,11,Bajo,Presencial,Sí,Baja,0
+ALU-1039,6.34,85.4,0,10,Bajo,Presencial,Sí,Baja,1
+ALU-1040,8.02,74.5,0,4,Bajo,Híbrida,Sí,Media,1
+ALU-1041,8.61,79.5,0,15,Bajo,Presencial,No,Alta,0
+ALU-1042,7.99,76.1,0,27,Alto,Híbrida,Sí,Media,1
+ALU-1043,7.67,74.9,0,9,Medio,Presencial,Sí,Media,1
+ALU-1044,7.47,92.2,0,11,Medio,Presencial,Sí,Baja,1
+ALU-1045,6.17,86.3,0,24,Medio,En línea,Sí,Alta,1
+ALU-1046,7.01,73.7,0,24,Bajo,En línea,Sí,Alta,1
+ALU-1047,7.29,92.8,0,13,Alto,Presencial,Sí,Baja,1
+ALU-1048,8.96,85.7,4,16,Medio,En línea,Sí,Alta,0
+ALU-1049,8.18,91.8,0,6,Bajo,En línea,Sí,Media,1
+ALU-1050,5.86,89.6,1,28,Medio,Presencial,Sí,Media,0
+ALU-1051,8.16,72.1,0,28,Alto,Híbrida,Sí,Media,1
+ALU-1052,7.38,75.3,1,31,Alto,Híbrida,No,Alta,0
+ALU-1053,7.06,91.0,1,15,Medio,En línea,Sí,Media,1
+ALU-1054,8.47,89.3,0,4,Medio,Presencial,Sí,Baja,1
+ALU-1055,8.93,81.7,0,25,Bajo,En línea,Sí,Media,1
+ALU-1056,8.82,83.4,0,7,Alto,Presencial,Sí,Alta,1
+ALU-1057,6.88,97.3,0,13,Bajo,Presencial,Sí,Baja,1
+ALU-1058,7.46,74.9,3,8,Alto,Presencial,Sí,Media,0
+ALU-1059,8.16,88.6,2,20,Medio,Presencial,No,Media,0
+ALU-1060,8.87,79.6,3,34,Medio,Híbrida,Sí,Media,1
+ALU-1061,7.27,79.4,0,23,Medio,En línea,Sí,Media,1
+ALU-1062,7.6,95.2,1,12,Bajo,En línea,Sí,Alta,1
+ALU-1063,6.58,91.9,3,6,Bajo,Presencial,Sí,Baja,0
+ALU-1064,6.48,91.8,0,11,Bajo,Presencial,Sí,Baja,1
+ALU-1065,8.69,97.7,0,8,Bajo,Presencial,Sí,Baja,1
+ALU-1066,9.29,82.3,1,4,Medio,Híbrida,Sí,Alta,1
+ALU-1067,7.72,90.2,0,19,Medio,Presencial,No,Media,0
+ALU-1068,8.9,78.3,2,7,Bajo,Híbrida,Sí,Baja,0
+ALU-1069,8.2,85.9,0,27,Alto,En línea,Sí,Alta,1
+ALU-1070,7.09,80.4,1,8,Alto,Presencial,Sí,Alta,1
+ALU-1071,8.2,83.2,0,28,Alto,En línea,Sí,Alta,1
+ALU-1072,9.49,89.1,0,14,Alto,Presencial,Sí,Alta,1
+ALU-1073,7.76,72.2,0,25,Bajo,Híbrida,Sí,Baja,1
+ALU-1074,9.52,100.0,1,23,Medio,Híbrida,Sí,Alta,1
+ALU-1075,5.0,69.9,1,12,Medio,Presencial,No,Media,0
+ALU-1076,8.7,67.4,0,24,Medio,Presencial,Sí,Alta,1
+ALU-1077,7.9,95.9,0,23,Bajo,En línea,Sí,Media,1
+ALU-1078,7.47,91.5,2,29,Medio,Híbrida,No,Alta,0
+ALU-1079,7.9,89.5,0,27,Bajo,Presencial,Sí,Media,1
+ALU-1080,5.61,89.5,1,33,Bajo,En línea,Sí,Baja,1
+ALU-1081,7.56,81.9,0,8,Medio,En línea,Sí,Media,1
+ALU-1082,8.19,71.2,0,29,Medio,En línea,Sí,Alta,1
+ALU-1083,9.43,82.9,0,10,Medio,Presencial,Sí,Alta,1
+ALU-1084,7.23,73.9,0,4,Bajo,En línea,No,Baja,0
+ALU-1085,6.91,93.7,1,14,Alto,Híbrida,Sí,Baja,1
+ALU-1086,7.25,80.2,0,15,Bajo,Presencial,Sí,Baja,1
+ALU-1087,8.81,72.1,0,27,Bajo,Presencial,Sí,Media,1
+ALU-1088,8.16,78.1,2,23,Alto,Híbrida,Sí,Alta,1
+ALU-1089,7.22,87.0,0,9,Alto,Presencial,Sí,Baja,1
+ALU-1090,8.36,75.2,0,12,Alto,Híbrida,Sí,Media,1
+ALU-1091,7.91,72.1,2,15,Medio,Presencial,No,Alta,0
+ALU-1092,8.87,84.9,1,19,Medio,Presencial,Sí,Media,1
+ALU-1093,7.03,84.9,0,28,Medio,Híbrida,Sí,Media,1
+ALU-1094,7.44,75.9,3,23,Bajo,Presencial,Sí,Media,0
+ALU-1095,7.37,76.3,1,30,Medio,En línea,Sí,Media,1
+ALU-1096,6.19,84.8,0,32,Medio,Presencial,Sí,Baja,0
+ALU-1097,8.13,64.6,0,28,Bajo,En línea,Sí,Media,1
+ALU-1098,8.09,65.1,1,16,Medio,Presencial,Sí,Media,1
+ALU-1099,7.81,73.4,1,34,Medio,Presencial,Sí,Alta,1
+ALU-1100,7.54,79.4,0,4,Bajo,Híbrida,Sí,Media,0
+ALU-1101,6.24,85.7,2,30,Bajo,Presencial,Sí,Alta,0
+ALU-1102,7.34,99.7,1,24,Medio,En línea,No,Baja,1
+ALU-1103,7.42,92.3,0,13,Bajo,Presencial,Sí,Media,1
+ALU-1104,6.92,80.1,0,3,Alto,En línea,Sí,Baja,0
+ALU-1105,7.62,81.8,0,21,Medio,Presencial,Sí,Baja,1
+ALU-1106,8.24,70.0,1,23,Medio,Híbrida,No,Media,0
+ALU-1107,9.87,81.8,0,6,Medio,Presencial,No,Alta,1
+ALU-1108,7.99,78.5,0,21,Medio,Presencial,Sí,Baja,1
+ALU-1109,8.08,85.9,1,28,Bajo,Presencial,No,Media,0
+ALU-1110,7.72,72.1,2,31,Medio,Presencial,Sí,Alta,1
+ALU-1111,5.69,88.2,0,23,Medio,En línea,Sí,Baja,0
+ALU-1112,7.77,100.0,2,13,Bajo,Presencial,Sí,Media,1
+ALU-1113,7.87,80.7,0,10,Alto,Híbrida,Sí,Media,1
+ALU-1114,10.0,86.8,2,13,Medio,Presencial,Sí,Media,1
+ALU-1115,7.59,90.3,0,34,Medio,Presencial,No,Baja,1
+ALU-1116,8.13,77.2,0,6,Alto,En línea,Sí,Media,1
+ALU-1117,7.76,84.7,1,19,Alto,En línea,Sí,Alta,1
+ALU-1118,6.51,82.2,0,29,Medio,Presencial,Sí,Media,1
+ALU-1119,9.06,83.2,0,9,Medio,Presencial,Sí,Baja,1
+ALU-1120,8.63,72.7,1,10,Medio,Presencial,Sí,Alta,0
+ALU-1121,8.67,82.3,1,5,Medio,En línea,Sí,Baja,1
+ALU-1122,6.8,88.0,1,24,Medio,En línea,Sí,Media,1
+ALU-1123,9.34,99.4,1,4,Medio,Presencial,No,Baja,0
+ALU-1124,6.26,93.5,0,25,Bajo,Híbrida,Sí,Alta,1
+ALU-1125,8.45,100.0,0,17,Alto,Híbrida,Sí,Media,1
+ALU-1126,10.0,72.8,0,26,Alto,En línea,Sí,Media,1
+ALU-1127,6.71,92.5,0,24,Bajo,Híbrida,Sí,Baja,1
+ALU-1128,7.18,84.2,2,24,Medio,Presencial,Sí,Media,0
+ALU-1129,7.91,100.0,0,7,Bajo,Presencial,Sí,Alta,1
+ALU-1130,7.25,72.3,0,26,Bajo,Presencial,No,Alta,0
+ALU-1131,6.09,71.9,0,3,Medio,Presencial,Sí,Media,1
+ALU-1132,7.88,74.8,3,28,Bajo,En línea,No,Media,0
+ALU-1133,6.63,56.5,0,6,Medio,Híbrida,No,Media,0
+ALU-1134,8.32,75.7,0,17,Medio,Presencial,Sí,Alta,1
+ALU-1135,6.79,72.9,0,22,Medio,Presencial,No,Media,0
+ALU-1136,9.5,83.8,1,21,Bajo,Presencial,Sí,Media,1
+ALU-1137,6.94,86.1,0,5,Bajo,Híbrida,No,Media,0
+ALU-1138,7.45,100.0,2,22,Medio,Presencial,Sí,Media,1
+ALU-1139,8.69,93.4,3,13,Alto,En línea,No,Baja,0
+ALU-1140,6.45,75.1,0,19,Medio,Presencial,No,Media,0
+ALU-1141,8.05,71.2,1,32,Bajo,Presencial,No,Media,0
+ALU-1142,9.24,87.9,3,29,Medio,Híbrida,Sí,Alta,1
+ALU-1143,6.03,66.2,1,15,Medio,Híbrida,Sí,Baja,0
+ALU-1144,8.0,100.0,0,13,Medio,Presencial,Sí,Media,1
+ALU-1145,8.09,96.2,0,4,Bajo,Híbrida,Sí,Media,1
+ALU-1146,8.66,76.4,1,11,Medio,En línea,Sí,Media,1
+ALU-1147,6.44,61.4,0,28,Medio,Híbrida,Sí,Baja,1
+ALU-1148,6.35,98.2,1,4,Alto,Presencial,Sí,Media,1
+ALU-1149,8.37,80.6,3,23,Bajo,En línea,No,Media,0
+ALU-1150,8.13,96.9,3,11,Medio,Presencial,Sí,Media,0
+ALU-1151,8.08,62.9,0,11,Alto,En línea,No,Media,0
+ALU-1152,8.18,74.8,0,10,Bajo,Presencial,Sí,Media,1
+ALU-1153,7.05,82.1,4,19,Alto,Presencial,No,Alta,0
+ALU-1154,8.06,82.6,2,3,Medio,Presencial,No,Baja,0
+ALU-1155,8.12,76.6,0,27,Bajo,En línea,Sí,Alta,1
+ALU-1156,7.01,89.5,3,31,Bajo,Presencial,Sí,Media,0
+ALU-1157,9.85,69.2,2,13,Medio,En línea,Sí,Baja,1
+ALU-1158,8.32,80.3,0,10,Bajo,Híbrida,Sí,Baja,1
+ALU-1159,6.49,83.4,0,12,Medio,Presencial,Sí,Media,0
+ALU-1160,8.52,88.2,0,27,Bajo,En línea,Sí,Alta,1
+ALU-1161,6.73,90.5,0,9,Medio,Presencial,Sí,Media,0
+ALU-1162,8.67,68.5,0,5,Bajo,Híbrida,Sí,Alta,1
+ALU-1163,9.07,63.6,1,5,Alto,Presencial,Sí,Media,0
+ALU-1164,6.9,97.3,0,20,Alto,En línea,Sí,Media,1
+ALU-1165,8.86,86.0,0,7,Alto,Híbrida,Sí,Baja,1
+ALU-1166,8.25,73.0,0,14,Medio,Híbrida,No,Media,0
+ALU-1167,8.7,100.0,0,14,Bajo,En línea,Sí,Media,1
+ALU-1168,9.89,83.4,2,21,Medio,Presencial,No,Baja,0
+ALU-1169,7.53,96.2,0,32,Bajo,En línea,Sí,Baja,1
+ALU-1170,6.97,82.8,0,8,Bajo,Híbrida,Sí,Media,1
+ALU-1171,6.82,100.0,1,4,Bajo,En línea,Sí,Media,1
+ALU-1172,6.9,100.0,0,14,Medio,Presencial,Sí,Alta,1
+ALU-1173,7.72,79.0,0,21,Medio,Híbrida,Sí,Alta,1
+ALU-1174,8.18,93.7,0,7,Medio,En línea,Sí,Media,1
+ALU-1175,8.1,89.7,0,14,Medio,En línea,Sí,Media,1
+ALU-1176,8.71,98.4,0,29,Bajo,Presencial,Sí,Media,1
+ALU-1177,7.81,70.4,0,29,Alto,En línea,Sí,Alta,1
+ALU-1178,9.4,90.2,0,19,Medio,Presencial,Sí,Baja,1
+ALU-1179,7.51,94.7,2,31,Medio,En línea,Sí,Media,1
+ALU-1180,10.0,60.9,0,19,Bajo,Presencial,Sí,Alta,1
+ALU-1181,8.49,67.8,0,12,Medio,En línea,Sí,Media,1
+ALU-1182,6.86,57.5,1,27,Medio,Híbrida,Sí,Media,1
+ALU-1183,6.62,78.8,0,25,Bajo,Presencial,No,Media,0
+ALU-1184,8.33,90.6,1,19,Bajo,Híbrida,Sí,Baja,1
+ALU-1185,7.55,100.0,0,17,Medio,Presencial,Sí,Media,1
+ALU-1186,8.59,82.9,3,14,Medio,Híbrida,No,Media,0
+ALU-1187,8.32,100.0,0,32,Bajo,En línea,Sí,Baja,1
+ALU-1188,7.72,65.4,0,18,Alto,En línea,Sí,Baja,1
+ALU-1189,6.87,61.6,0,26,Bajo,En línea,Sí,Alta,1
+ALU-1190,6.13,81.3,4,21,Medio,Híbrida,Sí,Baja,0
+ALU-1191,7.31,86.6,0,10,Alto,Presencial,Sí,Media,1
+ALU-1192,8.74,81.6,0,33,Medio,Presencial,Sí,Baja,1
+ALU-1193,8.04,57.2,0,23,Medio,En línea,Sí,Alta,1
+ALU-1194,6.43,80.9,1,19,Medio,Híbrida,Sí,Baja,1
+ALU-1195,7.99,66.3,0,25,Bajo,En línea,No,Media,0
+ALU-1196,8.22,90.0,2,7,Alto,En línea,No,Alta,0
+ALU-1197,6.83,86.4,0,24,Medio,Presencial,Sí,Alta,1
+ALU-1198,7.97,70.7,0,18,Alto,Híbrida,Sí,Baja,0
+ALU-1199,7.86,75.8,0,8,Bajo,Presencial,Sí,Alta,1
+ALU-1200,6.54,69.3,0,10,Bajo,En línea,Sí,Media,1
+ALU-1201,8.19,81.2,0,27,Bajo,Presencial,Sí,Media,1
+ALU-1202,8.42,93.5,0,20,Medio,Presencial,Sí,Baja,1
+ALU-1203,8.99,70.2,1,27,Medio,Presencial,No,Baja,1
+ALU-1204,8.96,88.0,0,14,Alto,Presencial,Sí,Media,1
+ALU-1205,6.28,75.6,0,17,Medio,En línea,Sí,Media,1
+ALU-1206,6.77,72.5,0,29,Alto,Presencial,Sí,Media,1
+ALU-1207,8.37,80.7,0,28,Bajo,Presencial,Sí,Media,1
+ALU-1208,8.37,69.6,0,11,Alto,Presencial,No,Alta,0
+ALU-1209,8.37,75.4,0,15,Medio,Presencial,Sí,Baja,1
+ALU-1210,10.0,67.6,0,28,Medio,Presencial,Sí,Media,1
+ALU-1211,8.43,100.0,2,17,Medio,Presencial,Sí,Baja,1
+ALU-1212,9.05,82.4,3,34,Medio,En línea,Sí,Alta,0
+ALU-1213,8.85,73.6,0,12,Medio,En línea,Sí,Media,1
+ALU-1214,8.52,84.6,0,18,Bajo,En línea,Sí,Alta,1
+ALU-1215,7.45,80.7,1,9,Bajo,Presencial,Sí,Baja,1
+ALU-1216,8.63,79.3,0,19,Alto,Presencial,Sí,Baja,1
+ALU-1217,6.95,89.4,0,25,Medio,Híbrida,Sí,Baja,1
+ALU-1218,7.54,91.1,0,28,Medio,En línea,Sí,Baja,1
+ALU-1219,7.27,75.6,1,23,Medio,Presencial,Sí,Baja,1
+ALU-1220,7.89,75.1,1,24,Bajo,Presencial,Sí,Alta,1
+ALU-1221,10.0,78.7,0,28,Bajo,Presencial,Sí,Baja,1
+ALU-1222,5.75,54.4,0,9,Medio,Presencial,No,Baja,0
+ALU-1223,8.55,63.8,0,16,Medio,Presencial,No,Alta,0
+ALU-1224,6.03,98.4,1,17,Bajo,En línea,No,Media,0
+ALU-1225,7.28,100.0,0,23,Medio,En línea,Sí,Alta,1
+ALU-1226,9.0,79.0,0,9,Bajo,En línea,Sí,Baja,1
+ALU-1227,7.87,88.9,1,11,Medio,En línea,Sí,Media,1
+ALU-1228,6.61,85.7,0,21,Bajo,Híbrida,Sí,Baja,0
+ALU-1229,7.01,100.0,1,18,Medio,En línea,No,Baja,0
+ALU-1230,8.55,95.4,0,10,Bajo,Híbrida,Sí,Alta,1
+ALU-1231,7.0,80.5,0,20,Medio,Presencial,Sí,Baja,1
+ALU-1232,8.04,70.5,0,29,Bajo,Presencial,Sí,Media,1
+ALU-1233,7.85,62.7,1,25,Bajo,Presencial,Sí,Media,0
+ALU-1234,7.08,84.4,2,31,Medio,En línea,Sí,Media,0
+ALU-1235,10.0,72.9,2,20,Medio,Híbrida,Sí,Alta,1
+ALU-1236,8.5,64.9,0,33,Medio,Presencial,Sí,Baja,1
+ALU-1237,5.57,74.2,1,32,Bajo,Híbrida,Sí,Media,1
+ALU-1238,8.01,69.0,0,22,Medio,Presencial,Sí,Alta,1
+ALU-1239,7.07,100.0,0,9,Alto,Híbrida,Sí,Media,1
+ALU-1240,8.74,92.6,2,5,Medio,Presencial,No,Alta,0
+ALU-1241,6.93,81.9,0,20,Bajo,Presencial,No,Baja,0
+ALU-1242,7.67,99.8,0,29,Medio,Presencial,Sí,Media,1
+ALU-1243,8.36,82.9,0,12,Bajo,Presencial,Sí,Baja,1
+ALU-1244,8.75,71.7,0,9,Bajo,Presencial,Sí,Media,1
+ALU-1245,6.48,100.0,0,19,Alto,Presencial,Sí,Alta,1
+ALU-1246,7.43,88.5,0,16,Bajo,Híbrida,Sí,Baja,0
+ALU-1247,7.28,69.6,0,33,Medio,En línea,No,Media,0
+ALU-1248,7.08,79.7,2,26,Medio,Presencial,Sí,Baja,0
+ALU-1249,9.74,71.5,1,5,Medio,En línea,No,Media,1
+ALU-1250,8.25,65.4,0,14,Medio,En línea,Sí,Media,1

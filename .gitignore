@@ -1,0 +1,10 @@
+.venv/
+stream_train/
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+Reporte_Actividad_Streamlit*.docx
+Guia_Streamlit_Windows.pdf
+image.png
+Guia_Modelos_ML.docx
