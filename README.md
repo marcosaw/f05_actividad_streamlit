@@ -115,7 +115,6 @@ tabs/                   Una pestaña por archivo, más modelo.py con el entrenam
 data/                   CSV con errores (el que usa la app) y CSV original limpio
 .streamlit/config.toml  Tema claro fijo
 requirements.txt        Dependencias
-Guia_Modelos_ML.docx    Guía paso a paso de regresión logística y Random Forest
 ```
 
 ## Límites
