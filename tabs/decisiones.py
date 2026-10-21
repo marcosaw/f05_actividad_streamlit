@@ -1,7 +1,14 @@
 import pandas as pd
 import streamlit as st
 
+from tabs.prescriptiva import APOYO_POR_MOTIVO, PLAN_POR_NIVEL
+
 CONTROL = "Control (sin intervención)"
+TODOS_LOS_MOTIVOS = "Todos los motivos"
+
+
+def _alumnos(n: int) -> str:
+    return f"{n} alumno" if n == 1 else f"{n} alumnos"
 
 
 def _formato_tasa(valores: pd.Series) -> str:
@@ -78,17 +85,55 @@ def mostrar(df: pd.DataFrame) -> None:
     st.subheader("Seleccionar un nivel de riesgo")
     niveles = resumen["Nivel de riesgo"].tolist()
     nivel_elegido = st.selectbox("Nivel de riesgo prioritario", niveles, key="segmento_decisiones")
-    grupo = recomendaciones.loc[recomendaciones["segmento_recomendado"].eq(nivel_elegido)].copy()
+    grupo_nivel = recomendaciones.loc[recomendaciones["segmento_recomendado"].eq(nivel_elegido)].copy()
+
+    # Dos alumnos con el mismo nivel de riesgo pueden necesitar apoyos distintos:
+    # el motivo principal decide el tipo de apoyo y el mensaje.
+    conteo_motivos = grupo_nivel["factor_principal"].value_counts()
+    opciones_motivo = [TODOS_LOS_MOTIVOS] + conteo_motivos.index.tolist()
+    motivo_elegido = st.selectbox(
+        "Motivo principal",
+        opciones_motivo,
+        format_func=lambda m: f"{m} ({_alumnos(len(grupo_nivel) if m == TODOS_LOS_MOTIVOS else conteo_motivos[m])})",
+        key=f"motivo_decisiones_{nivel_elegido}",
+        help="Filtra el nivel de riesgo por la causa más clara de cada alumno: el apoyo y el mensaje cambian según el motivo.",
+    )
+    if motivo_elegido == TODOS_LOS_MOTIVOS:
+        st.caption(
+            "Elige un motivo para ver el apoyo y el mensaje específicos. Con todos los motivos "
+            "juntos, el apoyo varía por alumno."
+        )
+        st.dataframe(
+            pd.DataFrame(
+                {
+                    "Motivo principal": conteo_motivos.index,
+                    "Alumnos": conteo_motivos.values,
+                    "Apoyo sugerido": [APOYO_POR_MOTIVO.get(m, "") for m in conteo_motivos.index],
+                }
+            ),
+            use_container_width=True,
+            hide_index=True,
+        )
+        grupo = grupo_nivel
+    else:
+        grupo = grupo_nivel.loc[grupo_nivel["factor_principal"].eq(motivo_elegido)].copy()
 
     mensaje_base = grupo.iloc[0]
-    if nivel_elegido == "Riesgo alto":
-        st.error(f"Acción inmediata: {mensaje_base['accion_recomendada']}")
-    elif nivel_elegido == "Riesgo medio":
-        st.warning(f"Acción de seguimiento: {mensaje_base['accion_recomendada']}")
+    # Con un solo motivo, todos los alumnos comparten apoyo y mensaje; con todos los motivos
+    # solo la intensidad (canal y responsable) es común al nivel de riesgo.
+    if motivo_elegido == TODOS_LOS_MOTIVOS:
+        accion = PLAN_POR_NIVEL[nivel_elegido]["base"]
     else:
-        st.success(f"Acción estándar: {mensaje_base['accion_recomendada']}")
-    st.write("**Mensaje sugerido (borrador):**")
-    st.info(mensaje_base["mensaje_borrador"])
+        accion = mensaje_base["accion_recomendada"]
+    if nivel_elegido == "Riesgo alto":
+        st.error(f"Acción inmediata: {accion}")
+    elif nivel_elegido == "Riesgo medio":
+        st.warning(f"Acción de seguimiento: {accion}")
+    else:
+        st.success(f"Acción estándar: {accion}")
+    if motivo_elegido != TODOS_LOS_MOTIVOS:
+        st.write("**Mensaje sugerido (borrador):**")
+        st.info(mensaje_base["mensaje_borrador"])
     st.write(f"**Canal recomendado:** {mensaje_base['canal_a_validar']}")
     st.write(f"**Responsable sugerido:** {mensaje_base['responsable_sugerido']}")
 
@@ -120,7 +165,8 @@ def mostrar(df: pd.DataFrame) -> None:
         "1. Definir la ventana de medición y el KPI primario (retención al cierre del periodo) antes de iniciar.\n"
         "2. Aplicar el apoyo solo al grupo tratamiento; mantener el control sin esa intervención.\n"
         "3. Comparar la tasa de retención entre grupos con la misma ventana y documentar el tamaño de muestra.\n"
-        "4. Cuidar el tono de los mensajes y la frecuencia de contacto; evitar estigmatizar a los alumnos marcados."
+        "4. Cuidar el tono de los mensajes y la frecuencia de contacto; evitar estigmatizar a los alumnos marcados.\n"
+        "5. Revisar cada caso con su tutor antes de asignar el apoyo: el motivo principal es una regla, no un diagnóstico."
     )
     st.caption(
         "Esta aplicación no envía comunicaciones. El CSV es un plan de trabajo; "
@@ -130,7 +176,7 @@ def mostrar(df: pd.DataFrame) -> None:
 
     columnas_exportacion = [
         c for c in [
-            "id_alumno", "segmento_recomendado", "probabilidad_abandono", "evidencia_regla",
+            "id_alumno", "segmento_recomendado", "factor_principal", "probabilidad_abandono", "evidencia_regla",
             "accion_recomendada", "canal_a_validar", "mensaje_borrador", "responsable_sugerido",
             "siguiente_paso", "riesgo_medicion", "grupo_experimento", "kpi_primario",
             "ventana_medicion",
